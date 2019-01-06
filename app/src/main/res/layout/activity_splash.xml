@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:adjustViewBounds="false"
+        android:background="@android:color/holo_blue_light"
+        android:cropToPadding="true"
+        android:src="@drawable/splash_icon" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="43dp"
+        android:text="The Dory Game"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
